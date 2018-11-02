@@ -1,0 +1,137 @@
+﻿#footer {
+    background-color: #1c1c1c;
+}
+
+#footer-top {
+    padding: 40px 0;
+}
+
+#footer-top h3 {
+	color: #fff;
+    margin: 0 0 25px;
+}
+
+#footer-top h4 {
+	color: #fff;
+    margin: 0 0 25px;
+	margin-left: 50px;
+	font-size: x-large;
+}
+
+#footer-top p {
+    color: #fff;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-top-first {
+    padding-right: 35px;
+    text-align: justify;
+}
+
+#footer-bottom {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	background: #000;
+	padding: 20px 0;
+}
+
+#footer-top #footer-top-seconds ul li {
+    float: left;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-top #footer-top-trois .networks li {
+	margin-right: -50px;
+	float: left;
+}
+
+#footer-top #footer-top-trois .twitter {
+	background: #55acee;
+}
+
+#footer-top #footer-top-trois .facebook {
+	background: #3b5998;
+}
+
+#footer-top #footer-top-trois .youtube {
+	background: #e52d27;
+}
+
+#footer-top #footer-top-trois .networks{
+	float: left;
+}
+#footer-top #footer-top-trois .icon {
+	display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    height: 42px;
+    width: 42px;
+    color: #fff;
+}
+
+#footer-bottom .rightinfo
+#footer-bottom .copyright {
+    overflow: hidden;
+}
+
+#footer-top #footer-top-seconds{
+    overflow: hidden;
+}
+
+#footer-top #footer-top-seconds a{
+    color: #afd23d;
+}
+
+#footer-top #footer-top-seconds a:before {
+    content: url("data:image/svg+xml;base64,PHN2ZyBiYXNlUHJvZmlsZT0idGlueSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTUuNDUzIDE2Ij4NCjxwYXRoIGZpbGw9IiNBRkQyM0QiIGQ9Ik0xNS4yOTcsNC45NTNsMC4xNTYtMC4wMTZsLTAuMTQxLDAuNDM4bDAuMTQxLTAuMDMxbC0wLjE1NiwwLjQ2OWwwLjE1Ni0wLjAzMUwxMS43NjYsMTZMMCw4LjI4MWgwLjU2Mg0KCUwwLDcuODc1bDAuNTQ3LTAuMDYyTDAsNy40MzhsMC41NjItMC4wNjJMMCw3bDAuNTE2LTAuMDk0TDAsNi41NzhsMy4yODEtMC40MjJMNC4wNzgsMC41TDguNzUsMEwxMyw0LjU3OGwyLjQ1My0wLjVsLTAuMTcyLDAuNDg0DQoJbDAuMTcyLTAuMDMxTDE1LjI5Nyw0Ljk1M3oiLz4NCjwvc3ZnPg0K");
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: right;
+    margin-left: 5px;
+    width: 15px;
+}
+#top-voteur {
+text-align:center;
+display:inline-flex;
+margin-left:-20px
+}
+
+#player-info {
+}
+
+#title-votes {
+text-align:center;
+display:inline-block;
+margin-bottom:12px;
+margin-right:20px;
+margin-left:20px;
+font-size:20px;
+font-family:'Concert One',sans-serif;
+color:#fff
+}
+
+#player-name {
+padding-top:10px;
+border-top:1px solid #000;
+line-height:1;
+display:block
+}
+
+#votes {
+display:block
+}
