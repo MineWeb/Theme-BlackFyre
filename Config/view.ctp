@@ -8,12 +8,6 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
 ?>
 
 <section class="content">
-	<div class="col-md-4">
-        <div class="callout callout-danger" style="border: none;"><h4>Lien des vidéos youtube</h4>Veuillez utiliser les liens youtube comme ceci: https://www.youtube.com/embed/ITbAs0tW6yM</div>
-    </div>
-	<div class="col-md-4">
-        <div class="callout callout-danger" style="border: none;"><h4>Lien des images youtube</h4>Veuillez utiliser ce site pour faire vos miniature de video: https://youtubethumbnail.com/</div>
-    </div>
     <div class="row">
         <form method="post" enctype="multipart/form-data" data-ajax="false">
             <div class="col-md-12">
