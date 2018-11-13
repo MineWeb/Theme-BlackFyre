@@ -4373,7 +4373,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .form-group input.form-control {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;
     height: 54px;
