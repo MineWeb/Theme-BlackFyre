@@ -55,12 +55,20 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
                                         <input type="text" class="form-control" name="header_text_1" value="<?= $config['header_text_1'] ?>">
                                     </div>
 									<div class="form-group">
-                                        <label>URL de la banniere</label>
+                                        <label>URL de l'image de la banniere</label>
                                         <input type="text" class="form-control" name="header" value="<?= $config['header'] ?>">
                                     </div>
                                 </div>
 								<div class="col-md-6">
 									<?= $this->element('form.input.upload.img', $form_input) ?>
+									<div class="form-group">
+                                        <label>Largeur du logo</label>
+                                        <input type="text" class="form-control" name="logo_width" value="<?= $config['logo_width'] ?>">
+                                    </div>
+									<div class="form-group">
+                                        <label>Hauteur du logo</label>
+                                        <input type="text" class="form-control" name="logo_height" value="<?= $config['logo_height'] ?>">
+                                    </div>
                                 </div>
                                 <div class="col-md-12">
                                     <hr>

@@ -27,9 +27,9 @@
 							<div class="navbar-brand no-txt" >
 								<?php
 									if(isset($theme_config['logo']) && $theme_config['logo']) {
-									echo '<img src="'.$theme_config['logo'].'" style="min-width:300px; max-width:300px; min-height:350px; max-height:350px; display: block; margin-right: auto; margin-left: auto;">';
+									echo '<img src="'.$theme_config['logo'].'" style="min-width:'.$theme_config['logo_width'].'px; max-width:'.$theme_config['logo_width'].'px; min-height:'.$theme_config['logo_height'].'px; max-height:'.$theme_config['logo_height'].'px; display: block; margin-right: auto; margin-left: auto;">';
 									} else {
-									echo '<img src="/theme/BlackFyre/images/Logo.png" style="min-width:300px; max-width:300px; min-height:350px; max-height:350px; display: block; margin-right: auto; margin-left: auto;">';
+									echo '<img src="/theme/BlackFyre/images/Logo.png" style="min-width:'.$theme_config['logo_width'].'px; max-width:'.$theme_config['logo_width'].'px; min-height:'.$theme_config['logo_height'].'px; max-height:'.$theme_config['logo_height'].'px; display: block; margin-right: auto; margin-left: auto;">';
 									}
 								?>
 							</div>
