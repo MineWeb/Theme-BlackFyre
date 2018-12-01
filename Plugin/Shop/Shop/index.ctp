@@ -8,6 +8,21 @@
     <div class="row">
       <div class="col-sm-3">
           
+		  <?php if (!empty($vagoal)) {?>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-trophy"></i> <?= $Lang->get('SHOP__CONFIG_GOAL_TITLE') ?></h3>
+              </div>
+			  <p>
+              <div class="panel-body">
+                <div class="progress-bar-info text-center" role="progressbar" style="width:<?= $vawidth ?>%">
+					<b><?= $vawidth ?>%</b>
+				</div>
+              </div> 
+			  <p>
+            </div>
+          <?php } ?>
+		  
           <?php if($isConnected) { ?>
           <div class="panel panel-default">
           <div class="panel-heading">
