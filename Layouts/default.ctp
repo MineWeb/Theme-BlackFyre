@@ -35,6 +35,7 @@
    =================================================== -->
    <?= $this->Html->script('jquery-1.11.0.js') ?>
    <?= $this->Html->script('easy_paginate.js') ?>
+   <?= $this->Html->script('clipboard.min.js') ?>
 	
 </head>
 <body>
