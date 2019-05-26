@@ -15,7 +15,7 @@
 								<li class="wow zoomIn">
 									<div class="news-all" style="width:100%;">
 										<a href="<?= $this->Html->url(array('controller' => 'blog', 'action' => $news['News']['slug'])) ?>" style="position: relative; bottom: 20px;">
-											<h2><?= cut($news['News']['title'], 70) ?></h2>
+											<h2 style="color:white"><?= cut($news['News']['title'], 70) ?></h2>
 										</a>
 										<span class="date">Le <?= $Lang->date($news['News']['created']); ?></span>
 										<?php if(isset($theme_config['news_caractere']) && $theme_config['news_caractere']) { ?>
