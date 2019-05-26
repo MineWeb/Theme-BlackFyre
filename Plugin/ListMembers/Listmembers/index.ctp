@@ -11,7 +11,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <img width="30px;" src="<?= $this->Html->url('/API/get_head_skin/'.$v['pseudo']) ?>/30" class="img-circle"> | <?= $v['pseudo']; ?>
-                <a id="btn-user-<?= $v['id']; ?>" style="cursor: pointer;" onclick="AffCachInfosUser('1');" class="pull-right"></a>
+                <a id="btn-user-<?= $v['id']; ?>" style="cursor: pointer;" onclick="AffCachInfosUser('<?= $v['id']; ?>');" class="pull-right"></a>
               </div>
               <div style="display:none;" id="user-<?= $v['id']; ?>" class="panel-body">
                 <table class="table table-hover" id="users">
