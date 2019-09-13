@@ -23,7 +23,7 @@
 				<div id="header-top-second"  class="clearfix">
 					<div class="header-top-dropdown">
 						<div class="btn-group dropdown">
-							<button type="button" class="btn dropdown-toggle" onclick="window.location.href='//<?= $theme_config['ip_vocal']; ?>'"data-toggle="dropdown" style="text-transform: uppercase;"><i class="fa fa-microphone"></i> <?= $theme_config['ip_vocal']; ?></button>
+							<button type="button" class="btn dropdown-toggle" onclick="window.location.href='<?= $theme_config['ip_vocal']; ?>'"data-toggle="dropdown" style="text-transform: uppercase;"><i class="fa fa-microphone"></i> <?= $theme_config['ip_vocal']; ?></button>
 						</div>
 						<div class="btn-group dropdown">
 							<button type="button" class="btn dropdown-toggle" data-clipboard-text="<?= $theme_config['ip_server']; ?>" data-toggle="dropdown" style="text-transform: uppercase;"><i class="fa fa-gamepad"></i> <?= $theme_config['ip_server']; ?></button>
