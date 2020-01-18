@@ -32,7 +32,7 @@
               <span class="credits">
             <?php
             if($isConnected) {
-              echo $money.' '.$Configuration->getMoneyName();
+              echo $money;
             } else {
               echo $Lang->get('SHOP__TITLE');
             }
