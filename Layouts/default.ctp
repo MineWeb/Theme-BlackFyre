@@ -6,15 +6,20 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title><?= $title_for_layout; ?> - <?= $website_name ?></title>
-	<meta name="description" content="">
 	<meta name="author" content="Kuro">
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title><?= $seo_config['title'] ?></title>
+    <link rel="icon" type="image/png" href="<?= $seo_config['favicon_url'] ?>"/>
+    <meta name="title" content="<?= $seo_config['title'] ?>">
+    <meta property="og:title" content="<?= $seo_config['title'] ?>">
+    <meta name="description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:image" content="<?= $seo_config['img_url'] ?>">
 	
 	<!-- Favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="<?= $theme_config['favicon_url'] ?>" />
 
 	<!-- Mobile Specific Metas
 	================================================== -->
