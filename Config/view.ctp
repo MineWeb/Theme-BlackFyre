@@ -13,9 +13,9 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
             <div class="col-md-12">
                 <div class="nav-tabs-custom">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#tab_accueil" data-toggle="tab">Accueil</a></li>
-                        <li><a href="#tab_footer" data-toggle="tab">Footer</a></li>
-                        <li><a href="#tab_other" data-toggle="tab">Autres options</a></li>
+                        <li class="active"><a class="nav-link text-dark" href="#tab_accueil" data-toggle="tab">Accueil</a></li>
+                        <li><a class="nav-link text-dark" href="#tab_footer" data-toggle="tab">Footer</a></li>
+                        <li><a class="nav-link text-dark" href="#tab_other" data-toggle="tab">Autres options</a></li>
                     </ul>
                     <div class="tab-content" style="padding: 15px;">
                         <div class="tab-pane active" id="tab_accueil">
@@ -105,7 +105,7 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
                         </div>
                         <div class="tab-pane" id="tab_other">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-8">
                                     <div class="form-group">
                                         <label>Texte récompense top voteur #1</label>
 										<p>Ajouter votre texte</p>
