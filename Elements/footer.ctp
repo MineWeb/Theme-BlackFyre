@@ -29,20 +29,20 @@
 									'group' => 'username',
 									'limit' => 3
 									]);
-								?>
+									
+									$i_cl = 0;foreach($users_vote as $userv): $i_cl++; ?>
+										<div id="player-info">
+											<div id="title-votes">
+												<img src='<?= $this->Html->url(['controller' => 'API', 'action' => 'get_head_skin', 'plugin' => false, $userv['Vote']['username'], 32]); ?>' class='img-rounded' alt=''>
+											</div>
+											
+											<strong class="player-name" style="text-transform: uppercase; color: #fff;"><?= $userv['Vote']['username']; ?></strong>
+											<div id="votes" style="color: #fff;"><?= $userv[0]['count']; ?> vote<?php if($userv[0]['count'] == 1){ ?> <?php }else{ ?>s<?php }?></div>
+										</div>
+									<?php endforeach; ?>
 								<?php } else { ?>
 									<div class="alert alert-danger"><b>Erreur :</b> Le plugin vote n'est pas installé.</div>
 								<?php } ?>
-									<?php $i_cl = 0;foreach($users_vote as $userv): $i_cl++; ?>
-									<div id="player-info">
-										<div id="title-votes">
-											<img src='<?= $this->Html->url(['controller' => 'API', 'action' => 'get_head_skin', 'plugin' => false, $userv['Vote']['username'], 32]); ?>' class='img-rounded' alt=''>
-										</div>
-										
-										<strong class="player-name" style="text-transform: uppercase; color: #fff;"><?= $userv['Vote']['username']; ?></strong>
-										<div id="votes" style="color: #fff;"><?= $userv[0]['count']; ?> vote<?php if($userv[0]['count'] == 1){ ?> <?php }else{ ?>s<?php }?></div>
-									</div>
-								<?php endforeach; ?>
 							</div>
 						</li>
 					</ul>
