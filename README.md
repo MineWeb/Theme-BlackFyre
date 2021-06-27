@@ -1,8 +1,5 @@
 # Thème MineWeb | BlackFyre
 
-## Demo
-Vous pouvez trouvez une demo du thème ici ---> https://dev.endoria.fr
-
 ## Installation | FTP
 1. Cliquez sur "Clone or download" sur la page "https://github.com/MineWeb/Theme-BlackFyre".
 2. Téléchargez et enregistrez le ZIP, puis extrayez le.
